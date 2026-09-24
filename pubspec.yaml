@@ -1,0 +1,124 @@
+
+name: wedding
+
+# Mô tả dự án
+description: "Wedding Management Web"
+
+# Không publish lên pub.dev
+publish_to: 'none'
+
+# Phiên bản ứng dụng
+version: 1.0.0+1
+
+# Phiên bản Dart SDK yêu cầu
+environment:
+  sdk: ^3.12.2
+
+# ==========================
+# Dependencies
+# ==========================
+dependencies:
+
+  # Flutter SDK
+  flutter:
+    sdk: flutter
+
+  # Bộ icon theo phong cách iOS
+  cupertino_icons: ^1.0.8
+
+  # ==========================
+  # UI
+  # ==========================
+
+  # Font chữ từ Google Fonts
+  google_fonts: ^6.3.1
+
+  # Hiển thị ảnh SVG
+  flutter_svg: ^2.2.1
+
+  # ==========================
+  # Navigation
+  # ==========================
+
+  # Quản lý điều hướng giữa các màn hình
+  go_router: ^16.2.1
+
+  # ==========================
+  # State Management
+  # ==========================
+
+  # Quản lý trạng thái bằng BLoC/Cubit
+  flutter_bloc: ^9.1.1
+
+  # So sánh object nhanh hơn (thường dùng với Bloc)
+  equatable: ^2.0.7
+
+  # ==========================
+  # Networking
+  # ==========================
+
+  # Gọi REST API
+  dio: ^5.9.0
+
+  # ==========================
+  # Local Storage
+  # ==========================
+
+  # Lưu token, thông tin đăng nhập...
+  shared_preferences: ^2.5.3
+
+  # ==========================
+  # Dependency Injection
+  # ==========================
+
+  # Quản lý Singleton và Inject Service
+  get_it: ^8.2.0
+
+  # ==========================
+  # Utilities
+  # ==========================
+
+  # Định dạng ngày giờ, tiền tệ...
+  intl: ^0.20.2
+
+  # Ghi log trong quá trình phát triển
+  logger: ^2.6.1
+
+  # Chọn ảnh từ thiết bị
+  image_picker: ^1.2.3
+
+# ==========================
+# Development Dependencies
+# ==========================
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  # Bộ quy tắc kiểm tra mã nguồn
+  flutter_lints: ^6.0.0
+
+# ==========================
+# Flutter
+# ==========================
+flutter:
+
+  # Cho phép sử dụng Material Icons
+  uses-material-design: true
+
+  # --------------------------
+  # Assets
+  # --------------------------
+
+  assets:
+   - Assets/Image/
+
+  # --------------------------
+  # Fonts
+  # --------------------------
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: Assets/Fonts/DFVN Simple Serenity Script.otf
+        - asset: Assets/Fonts/DFVN Simple Serenity Serif.otf
