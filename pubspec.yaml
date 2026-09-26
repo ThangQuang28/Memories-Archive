@@ -1,8 +1,8 @@
 
-name: wedding
+name: memory_archive
 
 # Mô tả dự án
-description: "Wedding Management Web"
+description: "MEMORY ARCHIVE — A cinematic personal memory archive."
 
 # Không publish lên pub.dev
 publish_to: 'none'
