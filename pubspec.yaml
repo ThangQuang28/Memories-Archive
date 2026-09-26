@@ -67,6 +67,9 @@ dependencies:
   # Lưu token, thông tin đăng nhập...
   shared_preferences: ^2.5.3
 
+  # Lưu trữ database trên trình duyệt
+  indexed_db: ^1.0.1
+
   # ==========================
   # Dependency Injection
   # ==========================

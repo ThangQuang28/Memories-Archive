@@ -5,14 +5,9 @@ import 'app/app_bootstrap.dart';
 import 'app/app_dependencies.dart';
 
 Future<void> main() async {
-    WidgetsFlutterBinding.ensureInitialized();
+  WidgetsFlutterBinding.ensureInitialized();
 
-    final AppDependencies dependencies =
-        await bootstrapApplication();
+  final AppDependencies dependencies = await bootstrapApplication();
 
-    runApp(
-        MemoryArchiveApp(
-            dependencies: dependencies,
-        ),
-    );
+  runApp(MemoryArchiveApp(dependencies: dependencies));
 }
